@@ -5,8 +5,14 @@
 # -- Project information -----------------------------------------------------
 
 project = 'scikit-rf'
-copyright = '2025, scikit-rf team'
-author = 'scikit-rf team'
+copyright = '2025, scikit-rf 团队'  # 可以改成中文
+author = 'scikit-rf 团队'
+
+# 语言设置 - 这是关键！
+language = 'zh_CN'
+
+# 中文搜索支持（可选但推荐）
+html_search_language = 'zh'
 
 # -- General configuration ---------------------------------------------------
 
@@ -130,6 +136,23 @@ htmlhelp_basename = 'skrfdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
+
+# -- Options for LaTeX output --------------------------------------------------
+latex_engine = 'xelatex'  # 使用 xelatex 支持中文
+
+latex_elements = {
+    'preamble': r'''
+\usepackage{xeCJK}
+\setCJKmainfont{Noto Serif CJK SC}  # 或其他系统中文字体
+\setCJKsansfont{Noto Sans CJK SC}
+\setCJKmonofont{Noto Sans Mono CJK SC}
+''',
+}
+
+latex_documents = [
+  ('index', 'scikit-rf.tex', 'scikit-rf 中文文档',  # 标题改为中文
+   'scikit-rf 团队', 'manual'),
+]
 
 # The paper size ('letter' or 'a4').
 #latex_paper_size = 'letter'
