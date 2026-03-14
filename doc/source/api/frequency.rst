@@ -1,1 +1,1 @@
-.. automodule:: skrf.frequency
+.. 自动生成模块文档：skrf.frequency

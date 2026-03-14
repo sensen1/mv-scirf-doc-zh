@@ -1,1 +1,1 @@
-.. automodule:: skrf.vi.vna
+.. 自动生成模块文档：skrf.vi.vna

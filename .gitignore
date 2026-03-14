@@ -25,3 +25,9 @@ lint.xml
 .venv/
 test-results/*.xml
 testing.xlsx
+
+CLAUDE.md
+
+.CLAUDE
+
+
