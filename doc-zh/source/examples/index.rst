@@ -1,21 +1,19 @@
-.. _examples:
+.. _示例:
 
 示例
-=========
-
+========
 这些示例旨在概述如何使用 skrf。
-每个页面都可以在浏览器中直接查看，或者作为 ipython `notebook <http://ipython.org/notebook.html>`_ 下载
+每个页面都可以在浏览器中查看，也可以下载为 ipython `notebook <http://ipython.org/notebook.html>`_。
 
 网络理论
 ------------------
-
 .. toctree::
     :maxdepth: 1
     :glob:
 
     networktheory/*
 
-阻抗匹配
+匹配
 ------------------
 .. toctree::
     :maxdepth: 1
@@ -23,7 +21,7 @@
 
     matching/*
 
-计量学与校准
+计量与校准
 --------------------------
 
 .. toctree::
@@ -78,7 +76,7 @@
 
     vectorfitting/*
 
-品质因数 Q
+Q 因子
 ------------------
 
 .. toctree::
@@ -87,9 +85,8 @@
 
     qfactor/*
 
-渐变线
+锥形
 ------------------
-
 .. toctree::
     :maxdepth: 1
     :glob:
@@ -106,7 +103,7 @@
 
     instrumentcontrol/*
 
-交互式应用
+交互
 ------------------
 
 .. toctree::
