@@ -2,22 +2,23 @@
 sphinx>=7.0,<8.0
 sphinx-rtd-theme>=2.0.0
 
-# Jupyter Notebook 支持（nbsphinx 扩展需要）
+# Jupyter Notebook 支持
 nbsphinx>=0.9.0
+ipykernel>=6.0.0  # 新增：提供 python3 kernel
 
-# IPython 支持（IPython 指令高亮需要）
+# IPython 支持
 ipython>=8.0.0
 
-# 绘图支持（conf.py 中调用了 rf.setup_pylab()）
+# 绘图支持
 matplotlib>=3.5.0
 
-# scikit-rf 核心库（conf.py 中导入了 skrf，且需要生成 API 文档）
+# scikit-rf 核心库
 scikit-rf>=1.0.0
 
-# scikit-rf 的核心依赖（确保文档构建时依赖完整）
+# 核心依赖
 numpy>=1.21.0
 scipy>=1.7.0
 pandas>=1.3.0
 
-# 可选：如果你后续要添加 Markdown 支持，取消注释下面这行
-# myst-parser>=2.0.0
+# 可选：VNA 仪器支持（解决 pyvisa 警告）
+# pyvisa>=1.13.0
