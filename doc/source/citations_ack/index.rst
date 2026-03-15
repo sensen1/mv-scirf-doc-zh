@@ -1,4 +1,5 @@
 .. _acknowledging:
+
     :github_url:
 
 .. image:: ../_static/scikit-rf-title-flat.svg

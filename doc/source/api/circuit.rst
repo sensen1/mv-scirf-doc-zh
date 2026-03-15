@@ -1,1 +1,1 @@
-.. automodule:: skrf.circuit
+.. 自动生成模块文档：skrf.circuit
