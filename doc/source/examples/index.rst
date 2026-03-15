@@ -1,22 +1,19 @@
 .. _examples:
 
-Examples
-=========
+示例
+========
+这些示例旨在概述如何使用 skrf。
+每个页面都可以在浏览器中查看，也可以下载为 ipython `notebook <http://ipython.org/notebook.html>`_。
 
-These examples are meant to give an overview of how skrf can be used.
-Each page can be followed along in a browser, or downloaded as an
-ipython `notebook <http://ipython.org/notebook.html>`_
-
-Network Theory
+网络理论
 ------------------
-
 .. toctree::
     :maxdepth: 1
     :glob:
 
     networktheory/*
 
-Matching
+匹配
 ------------------
 .. toctree::
     :maxdepth: 1
@@ -24,7 +21,7 @@ Matching
 
     matching/*
 
-Metrology and Calibration
+计量与校准
 --------------------------
 
 .. toctree::
@@ -34,7 +31,7 @@ Metrology and Calibration
     metrology/*
 
 
-NetworkSets
+网络集
 ------------------
 
 .. toctree::
@@ -43,7 +40,7 @@ NetworkSets
 
     networksets/*
 
-Plotting
+绘图
 ------------------
 
 .. toctree::
@@ -52,7 +49,7 @@ Plotting
 
     plotting/*
 
-Circuit
+电路
 ------------------
 
 .. toctree::
@@ -61,7 +58,7 @@ Circuit
 
     circuit/*
 
-Mixed Mode
+混合模式
 ------------------
 
 .. toctree::
@@ -70,7 +67,7 @@ Mixed Mode
 
     mixedmodeanalysis/*
 
-Vector Fitting
+矢量拟合
 ------------------
 
 .. toctree::
@@ -79,7 +76,7 @@ Vector Fitting
 
     vectorfitting/*
 
-Q-factor
+Q 因子
 ------------------
 
 .. toctree::
@@ -88,7 +85,7 @@ Q-factor
 
     qfactor/*
 
-Taper
+锥形
 ------------------
 .. toctree::
     :maxdepth: 1
@@ -97,7 +94,7 @@ Taper
     taper/*
 
 
-Instrument Control
+仪器控制
 ------------------
 
 .. toctree::
@@ -106,7 +103,7 @@ Instrument Control
 
     instrumentcontrol/*
 
-Interactive
+交互式
 ------------------
 
 .. toctree::
