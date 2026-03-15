@@ -1,3 +1,3 @@
-测量于 2018 年 2 月 19 日在安立思 MS46524B 20GHz VNA 上进行。
-设置是线性频率扫描，范围从 1MHz 到 10GHz，步长为 1MHz，共 10,000 个点。
-如果带宽为 1kHz，输出功率为 0dBm，不进行平滑处理，也不进行平均处理。
+Measurement performed the 19th February 2018 on an Anritsu MS46524B 20GHz Vector Network Analyser.
+The setup is a linear frequency sweep from 1MHz to 10GHz with 1MHz step, 10'000 points.
+If bandwidth 1kHz, 0dBm output power, no smoothing, no averaging.

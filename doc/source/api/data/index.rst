@@ -1,1 +1,1 @@
-.. 自动生成模块文档：skrf.data
+.. automodule:: skrf.data

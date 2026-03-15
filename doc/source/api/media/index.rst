@@ -1,7 +1,9 @@
-介质
-=====.. automodule:: skrf.media
+Media
+=====
+.. automodule:: skrf.media
 
-介质类
+
+Media Classes
 -------------
 
 .. autosummary::

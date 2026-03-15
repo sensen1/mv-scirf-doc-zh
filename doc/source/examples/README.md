@@ -1,5 +1,6 @@
-scikit-rf 的使用示例
+
+Usage Examples of scikit-rf
 =============================
 
-可以通过 nbviewer 查看这些示例，也可以下载并在 ipython notebook 中运行。
+These can be viewed through the nbviewer or downloaded and run through the ipython notebook
 http://nbviewer.ipython.org/github/scikit-rf/examples/blob/master/index.ipynb

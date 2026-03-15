@@ -1,1 +1,1 @@
-.. 自动生成模块文档：skrf.calibration.deembedding
+.. automodule:: skrf.calibration.deembedding

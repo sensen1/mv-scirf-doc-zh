@@ -1,5 +1,6 @@
 vectorFitting (:mod:`skrf.vectorFitting`)
-=========================================用于网络矢量拟合的模块。
+=========================================
+Module for vector fitting of networks.
 
 .. currentmodule:: skrf.vectorFitting
 
